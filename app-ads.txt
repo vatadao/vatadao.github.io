@@ -1,0 +1,2 @@
+# The AdMob publisher ID, for every game on this site.
+google.com, pub-8409338141784718, DIRECT, f08c47fec0942fa0
