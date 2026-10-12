@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Odd O'Clock</title>
+<meta name="description" content="Tiny games, back to back. How many hours can you clock?">
+<meta name="theme-color" content="#f7f6fa">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vatadao.github.io/odd-oclock/">
+<meta property="og:title" content="Odd O'Clock">
+<meta property="og:description" content="Tiny games, back to back. How many hours can you clock?">
+<meta property="og:image" content="https://vatadao.github.io/odd-oclock/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tock, a clock with a moustache, on a wheel of the day's colours, beside the words Odd O'Clock.">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  /* The game's text face, served from here: the page asks nothing of anyone else. */
+  @font-face { font-family: Bricolage; src: url(fonts/BricolageGrotesque.ttf) format("truetype"); font-weight: 200 800; font-display: swap; }
+  :root { --ink: #17141f; --paper: #f7f6fa; --yellow: #ffd23f; }
+  * { box-sizing: border-box; }
+  html {
+    min-height: 100%;
+    background-color: var(--paper);
+    /* The dotted paper of the game's home screen. */
+    background-image: radial-gradient(rgba(23, 20, 31, .14) 1.5px, transparent 1.7px);
+    background-size: 18px 18px;
+  }
+  body { margin: 0; color: var(--ink); font: 700 18px/1.4 Bricolage, -apple-system, system-ui, sans-serif; }
+  main { max-width: 26rem; margin: 0 auto; padding: 1.5rem 1rem 2.5rem; text-align: center; }
+  .hero { display: block; width: 100%; max-width: 390px; height: auto; margin: 0 auto; }
+  h1 { margin: 1.25rem 0 .5rem; font-size: 1.6rem; font-weight: 800; line-height: 1.2; }
+  p { margin: 0 0 1rem; }
+  .store {
+    display: inline-block;
+    margin: .75rem 0 2rem;
+    padding: .9rem 1.4rem;
+    background: var(--yellow);
+    border: 4px solid var(--ink);
+    border-radius: 22px;
+    box-shadow: 0 6px 0 var(--ink);
+    font-size: 1.05rem;
+    font-weight: 800;
+  }
+  footer { font-size: .9rem; font-weight: 600; }
+  footer a { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <img class="hero" src="hero.png" width="390" height="480" alt="Tock, a clock with a moustache, on a wheel of the day's colours, above the words Odd O'Clock.">
+  <h1>Tiny games, back to back.</h1>
+  <p>A run is a string of tiny games that keeps getting faster until your three lives are gone. How many hours can you clock?</p>
+  <p class="store">Coming soon to the App Store</p>
+  <footer>
+    <a href="privacy.html">Privacy policy</a> ·
+    <a href="mailto:daovanthang0604@gmail.com">Help</a> ·
+    <a href="../">vatadao</a>
+  </footer>
+</main>
+</body>
+</html>
